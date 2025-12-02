@@ -1,0 +1,74 @@
+{
+    "$schema": "https://raw.githubusercontent.com/LGUG2Z/komorebi/v0.1.37/schema.json",
+    "app_specific_configuration_path": "$Env:USERPROFILE/applications.json",
+    "window_hiding_behaviour": "Cloak",
+    "cross_monitor_move_behaviour": "Insert",
+    "default_workspace_padding": 1,
+    "default_container_padding": 1,
+    "border": true,
+    "border_width": 3,
+    "border_offset": -1,
+    "theme": {
+        "palette": "Base16",
+        "name": "Ashes",
+        "unfocused_border": "Base03",
+        "bar_accent": "Base0D"
+    },
+    "manage_rules": [
+        {
+            "kind": "Exe",
+            "id": "Paint",
+            "matching_strategy": "Contains"
+        }
+    ],
+    "monitors": [
+        {
+            "monitor_id": 0,
+            "workspaces": [
+                {
+                    "name": "I",
+                    "layout": "Grid"
+                },
+                {
+                    "name": "2",
+                    "layout": "Grid"
+                }
+            ]
+        },
+        {
+            "monitor_id": 1,
+            "workspaces": [
+                {
+                    "name": "I",
+                    "layout": "Grid"
+                },
+                {
+                    "name": "2",
+                    "layout": "Grid"
+                }
+            ]
+        }
+    ],
+    "floating_applications": [
+        {
+            "kind": "Title",
+            "id": "MiniPlayer",
+            "matching_strategy": "Equals"
+        },
+        {
+            "kind": "Title",
+            "id": "WhatsApp",
+            "matching_strategy": "Equals"
+        },
+        {
+            "kind": "Exe",
+            "id": "Terminal",
+            "matching_strategy": "Equals"
+        },
+        {
+            "kind": "Title",
+            "id": "Chromium",
+            "matching_strategy": "Contains"
+        }
+    ]
+}
